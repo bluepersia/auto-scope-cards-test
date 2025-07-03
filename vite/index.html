@@ -1,8 +1,122 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/utilities.css" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/product-preview/card.css">
+    <link rel="stylesheet" href="./css/product-preview/card-body.css">
+    <link rel="stylesheet" href="./css/food-card/card.css">
+    <link rel="stylesheet" href="./css/product-card/card.css">
+  </head>
 
   <body>
-    <h1>Hello World</h1>
+    <article class="card card--product">
+      <img
+        class="card__img-mobile u-block"
+        src="/product-preview/mobile.jpg"
+        alt=""
+      />
+      <img
+        class="card__img-desktop u-block"
+        src="/product-preview/desktop.jpg"
+        alt=""
+      />
+
+      <div class="card-body card__body">
+        <span class="u-m-0 card-body__subhead u-block">Perfume</span>
+        <h3 class="card-body__title u-m-0">Gabrielle Essence Eau De Parfum</h3>
+        <p class="card-body__desc u-m-0">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <span class="u-m-0 card-body__num u-block"
+          >$149.99<span class="card-body__prev u-m-0">$169.99</span></span
+        >
+        <button class="u-m-0 card-body__btn u-block">
+          <img
+            class="icon u-m-0"
+            src="/product-preview/icon-cart.svg"
+            alt=""
+          />Add to Cart
+        </button>
+      </div>
+    </article>
+
+    <article class="card-2 card-2--food">
+      <img
+        class="u-block card-2__img-mobile u-m-0"
+        src="/food-card/image-waffle-mobile.jpg"
+      />
+      <img
+        class="u-block card-2__img-tablet u-m-0"
+        src="/food-card/image-waffle-tablet.jpg"
+      />
+      <img
+        class="u-block card-2__img-desktop u-m-0"
+        src="/food-card/image-waffle-desktop.jpg"
+      />
+      <button class="u-block card-2__btn u-m-0">
+        <img class="icon" src="/food-card/icon-add-to-cart.svg" />Add to Cart
+      </button>
+      <span class="u-block card-2__subhead u-m-0">Waffle</span>
+      <span class="card-2__title u-m-0">Waffle with Berries</span>
+      <span class="u-block card-2__num u-m-0">$6.50</span>
+    </article>
+
+    <article class="card-3 card-3--product">
+      <img
+        class="u-m-0 card-3__img-mobile u-block"
+        src="/product-card/mobile.jpg"
+        alt=""
+      />
+      <img
+        class="u-m-0 card-3__img-tablet u-block"
+        src="/product-card/tablet.jpg"
+        alt=""
+      />
+      <img
+        class="u-m-0 card-3__img-desktop u-block"
+        src="/product-card/desktop.jpg"
+        alt=""
+      />
+
+      <div class="card-3__body">
+        <span class="u-m-0 card-3__subhead u-block">New Product</span>
+        <h3 class="card-3__title u-m-0">X99 Mark II Headphones</h3>
+        <p class="card-3__desc u-m-0">
+          The new XX99 Mark II headphones is the pinnacle of pristine audio. It
+          redefines your premium headphone experience by reproducing the
+          balanced depth and precision of studio-quality sound.
+        </p>
+        <button class="u-m-0 card-3__btn u-block">See Product</button>
+      </div>
+    </article>
+
+    <script type="module">
+      import fluidScale from 'fluid-scale';
+
+      fluidScale({ json: 'homepage' });
+    </script>
   </body>
 </html>

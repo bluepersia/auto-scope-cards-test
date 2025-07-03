@@ -1,0 +1,192 @@
+{
+  "bps": [
+    375,
+    768,
+    1200
+  ],
+  "fluidVariableSelectors": {
+    ".card-body": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "padding": {
+              "selector": ".card-body",
+              "minValues": [
+                1.5
+              ],
+              "maxValues": [
+                2
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 2
+            }
+          }
+        ]
+      ]
+    },
+    ".card-3__body": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "padding": {
+              "selector": ".card-3__body",
+              "minValues": [
+                2,
+                0,
+                0
+              ],
+              "maxValues": [
+                3.25,
+                [
+                  "break",
+                  [
+                    3.6
+                  ]
+                ],
+                0
+              ],
+              "minUnits": [
+                "rem",
+                "px",
+                "px"
+              ],
+              "maxUnits": [
+                "em",
+                [
+                  "",
+                  [
+                    "rem"
+                  ]
+                ],
+                "px"
+              ],
+              "variableName": "padding",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "padding": {
+              "selector": ".card-3__body",
+              "minValues": [
+                3.25,
+                [
+                  "break",
+                  [
+                    3.6
+                  ]
+                ],
+                0
+              ],
+              "maxValues": [
+                6.8,
+                0,
+                6.8
+              ],
+              "minUnits": [
+                "em",
+                [
+                  "",
+                  [
+                    "rem"
+                  ]
+                ],
+                "px"
+              ],
+              "maxUnits": [
+                "rem",
+                "px",
+                "rem"
+              ],
+              "variableName": "padding",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 2
+            }
+          }
+        ]
+      ]
+    },
+    ".card-3__title": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "font-size": {
+              "selector": ".card-3__title",
+              "minValues": [
+                1.86
+              ],
+              "maxValues": [
+                2.66
+              ],
+              "minUnits": [
+                "em"
+              ],
+              "maxUnits": [
+                "em"
+              ],
+              "variableName": "font-size",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ]
+      ]
+    },
+    ".card-3__btn": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "margin-left": {
+              "selector": ".card-3__btn",
+              "minValues": [
+                "auto"
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "auto"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "margin-left",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 2,
+              "transition": "background-color 300ms"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}
