@@ -1,0 +1,58 @@
+.card { 
+
+  --f-montserrat: "Montserrat", sans-serif;
+
+  font-family: var(--f-montserrat);
+  
+    border-radius: .625rem;
+    max-width: 37.5rem;
+
+}
+
+.card__img-desktop {
+    display: none;
+}
+
+.card__img-mobile {
+    display: block;
+    width: 100%;
+    border-top-left-radius: .625rem;
+    border-top-right-radius: .625rem;  
+    object-fit: cover;
+}
+
+.card__body 
+{
+  border-bottom-left-radius: .625rem;
+  border-bottom-right-radius: .625rem;  
+}
+@media(min-width:768px)
+{
+    .card 
+    {
+        display: flex;
+        background-color: white;
+        max-height: 28rem;
+
+    }
+    .card__img-mobile{
+        display: none;
+    }
+
+    .card__img-desktop
+     {
+        display: block;
+        width: 50%;
+        object-fit: cover;
+        border-top-left-radius: .625rem;
+        border-bottom-left-radius: .625rem;  
+     }
+
+     .card__body 
+     {
+        border-top-right-radius: .625rem;
+        border-bottom-right-radius: .625rem;  
+        width: 50%;
+     }
+}
+
