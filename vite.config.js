@@ -16,4 +16,9 @@ export default defineConfig({plugins: [
     outDir: '../dist',
     emptyOutDir: true, 
   },
+  server: {
+    headers: {
+      'Access-Control-Allow-Origin': '*'
+    }
+  }
 });

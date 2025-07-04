@@ -53,8 +53,7 @@
     text-transform: uppercase;
     transition: background-color 300ms;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
 }
 
 .btn:hover, .btn:focus {
@@ -110,6 +109,6 @@
     }
 
     .btn {
-        margin: 0;
+        margin-left: 0;
     }
 }
