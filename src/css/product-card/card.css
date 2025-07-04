@@ -51,9 +51,10 @@
     font-weight: bold;
     font-family: inherit;
     text-transform: uppercase;
+    transition: background-color 300ms;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    transition: background-color 300ms;
 }
 
 .btn:hover, .btn:focus {
@@ -109,6 +110,6 @@
     }
 
     .btn {
-        margin-left: 0;
+        margin: 0;
     }
 }
