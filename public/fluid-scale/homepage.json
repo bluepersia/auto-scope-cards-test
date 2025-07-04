@@ -1,0 +1,39 @@
+{
+  "bps": [
+    375,
+    768,
+    1200
+  ],
+  "fluidVariableSelectors": {
+    ".card-3__title": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "font-size": {
+              "selector": ".card-3__title",
+              "minValues": [
+                1.86
+              ],
+              "maxValues": [
+                2.66
+              ],
+              "minUnits": [
+                "em"
+              ],
+              "maxUnits": [
+                "em"
+              ],
+              "variableName": "font-size",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ]
+      ]
+    }
+  }
+}
