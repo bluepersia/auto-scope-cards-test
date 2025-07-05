@@ -5,6 +5,36 @@
     1200
   ],
   "fluidVariableSelectors": {
+    ".card__body": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "border-bottom-right-radius": {
+              "selector": ".card__body",
+              "minValues": [
+                0.625
+              ],
+              "maxValues": [
+                0.625
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "border-bottom-right-radius",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ]
+      ]
+    },
     ".card-body": {
       "__type__": "Map",
       "value": [
@@ -368,8 +398,7 @@
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 1200,
-              "nextBpIndex": 2,
-              "transition": "background-color 300ms"
+              "nextBpIndex": 2
             }
           }
         ]

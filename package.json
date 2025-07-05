@@ -11,9 +11,5 @@
   "devDependencies": {
     "typescript": "~5.8.3",
     "vite": "^7.0.0"
-  },
-  "dependencies": {
-    "auto-scope": "^0.1.955-alpha",
-    "fluid-scale": "^0.0.1664-alpha"
   }
 }
